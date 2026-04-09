@@ -52,13 +52,6 @@ nav a:hover {
     border-color: #4caf50;
 }
 
-nav a:not(:last-child)::after {
-    content: "|";
-    margin-left: 15px;
-    color: rgba(255, 255, 255, 0.6);
-    position: absolute;
-}
-
 /* Main */
 main {
     flex: 1; /* Empurra o footer para baixo */
