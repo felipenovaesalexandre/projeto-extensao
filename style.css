@@ -236,7 +236,8 @@ footer {
     }
 
     .image-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
     }
 
     .image-box {
@@ -258,8 +259,4 @@ footer {
         width: 100%;
         padding-left: 20px;
     }
-}
-
-nav a::after {
-    content: none !important;
 }
