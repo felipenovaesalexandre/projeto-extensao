@@ -259,3 +259,7 @@ footer {
         padding-left: 20px;
     }
 }
+
+nav a::after {
+    content: none !important;
+}
