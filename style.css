@@ -48,7 +48,12 @@ nav a {
 nav a:hover {
     background-color: #4caf50;
     border-color: #4caf50;
+}
 
+nav a:not(:last-child)::after {
+    content: "|";
+    margin-left: 15px;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 /* Main */
